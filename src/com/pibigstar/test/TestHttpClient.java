@@ -24,8 +24,6 @@ public class TestHttpClient {
 		GetMethod getMethod = new GetMethod("http://jb51.net");
 		//使用系统提供的默认恢复策略
 		//  getMethod.getParams().setParameter(HttpMethodParams.RETRY_HANDLER, new DefaultHttpMethodRetryHandler());
-		
-		
 
 		//创建post方法实例
 		PostMethod postMethod = new UTF8PostMethod("http://jb51.net");
